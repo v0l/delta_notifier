@@ -24,7 +24,7 @@ class AnimatedDeltaBuilder<T> extends StatefulWidget {
   final DeltaListenable<T> listenable;
 
   @override
-  _AnimatedDeltaBuilderState createState() => _AnimatedDeltaBuilderState();
+  _AnimatedDeltaBuilderState<T> createState() => _AnimatedDeltaBuilderState<T>();
 
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
