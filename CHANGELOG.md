@@ -11,3 +11,5 @@
 * Adds the beforeBuild handler, called before setState if set.
 * Add basic example.
 * Restructure files 
+
+## [0.0.3] - Add license
